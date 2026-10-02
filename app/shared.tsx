@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export function Shell({children}:{children:React.ReactNode}){return <><header><Link className="brand" href="/">CREATIXO<span>TECH</span><small>BY ARYAN MATHUR</small></Link><nav><Link href="/school-websites">For schools</Link><Link href="/business-websites">For businesses</Link><Link href="/work">Work</Link><Link className="nav-cta" href="/contact">Let's talk</Link></nav></header><main>{children}</main><footer><div className="wrap">CREATIXOTECH · ARYAN MATHUR <span>Greater Noida, India · © 2026</span></div></footer></>}
